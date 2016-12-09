@@ -1,0 +1,3 @@
+git config --system --unset credential.helper
+username : T-H-PJ
+password : 20133971@student.hust.edu.vn
