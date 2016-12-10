@@ -14,7 +14,6 @@ class Migration_Add_truyentranh extends CI_Migration {
                 $this->dbforge->add_field(array(
                         'truyentranh_id' => array(
                                 'type' => 'INT',
-                                'constraint' => 5,
                                 'unsigned' => TRUE,
                                 'auto_increment' => TRUE
                         ),
@@ -33,6 +32,6 @@ class Migration_Add_truyentranh extends CI_Migration {
 
         public function down()
         {
-                $this->dbforge->drop_table('truyentranh');
+               
         }
 }
