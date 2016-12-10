@@ -1,3 +1,16 @@
 git config --system --unset credential.helper
 username : T-H-PJ
 password : 20133971@student.hust.edu.vn
+
+session timeout : 3600s
+db name : 'commic'
+
+mgration type :timestamp , format : yyyymmddhhmmss
+(filename ex : 20161210122400_create_table_truyentranh.php)
+migrationfile directory : /application/migrations
+migration controller : /application/controllers/Migrate.php (run this file every time when you modify db with migration)
+note : set $config['migration_version'] = 0; in /config/migration.php
+
+
+
+
